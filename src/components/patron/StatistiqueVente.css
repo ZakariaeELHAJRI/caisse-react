@@ -1,0 +1,74 @@
+.card-container {
+    display: flex;
+    justify-content: space-between; /* Space out the cards */
+    margin-top: 20px; /* Add some top margin */
+  }
+  
+  .dashboard-card {
+    flex: 1; /* Distribute space evenly between the cards */
+    background-color: #f0f0f0; /* Card background color */
+    padding: 20px; /* Padding inside the card */
+    border: 1px solid #ddd; /* Border around the card */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Center text */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    transition: transform 0.2s; /* Add a small animation on hover */
+    cursor: pointer;
+    margin-right: 10px; /* Add some right margin to separate cards */
+  }
+  
+  .dashboard-card:hover {
+    transform: scale(1.05); /* Scale up the card on hover */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Increase the shadow on hover */
+  }
+  
+  .dashboard-card h2 {
+    font-size: 18px; /* Heading font size */
+    margin-bottom: 10px; /* Add some bottom margin to the heading */
+  }
+  
+  .dashboard-card p {
+    font-size: 24px; /* Paragraph font size */
+    font-weight: bold; /* Make the number bold */
+    color: #333; /* Text color */
+  }
+
+.earnings-chart-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .chart-toggle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .chart-button {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .chart-button:hover {
+    background-color: #ddd;
+  }
+
+  .chart-button.active {
+    background-color: #2196f3;
+    color: #fff;
+  }
+
+  .recharts-wrapper {
+    margin: 0 auto;
+  }
+    

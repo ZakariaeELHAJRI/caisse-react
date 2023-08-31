@@ -1,0 +1,77 @@
+.vertical-list {
+    display: flex;
+    flex-direction: column; /* Display items vertically */
+    gap: 10px; /* Adjust the gap between items as needed */
+  }
+  
+  .vertical-list > * {
+    /* Add margin or padding to items for spacing */
+    margin-bottom: 10px; /* Adjust the margin between items as needed */
+  }
+  .card-container {
+    display: flex;
+    justify-content: space-between; /* Space out the cards */
+    margin-top: 20px; /* Add some top margin */
+  }
+  
+.statistique-commande {
+    padding: 20px;
+  }
+ 
+.status-lists {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.card-list {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0 5px; /* Add margin to separate the lists */
+    padding: 10px;
+  }
+.left {
+    order: 1; /* Adjust the order to control the position */
+  }  
+  .right {
+    order: 2; /* Adjust the order to control the position */
+  }
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+.status-tag {
+    display: inline-block;
+    padding: 4px 8px;
+    border: 1px solid;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+ 
+.status-tag.green {
+    color: green;
+    border-color: green;
+  }
+  
+.status-tag.yellow {
+    color: yellow;
+    border-color: yellow;
+  }
+  
+.status-tag.red {
+    color: red;
+    border-color: red;
+  }
+  
+
+.selected-order {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+    
